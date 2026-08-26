@@ -44,7 +44,12 @@ Create a folder named binaries at the following path: src-tauri/binaries/. 
 
 You must append your system architecture's *target-triple* to the file names (e.g., x86_64-pc-windows-msvc for 64-bit Windows). Your folder structure must exactly match the following: 
 
-![alt text](image-3.png)
+```
+src-tauri/
+└── binaries/
+    ├── ffmpeg-x86_64-pc-windows-msvc.exe
+    └── yt-dlp-x86_64-pc-windows-msvc.exe
+```
 
 
 
